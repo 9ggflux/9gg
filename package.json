@@ -1,0 +1,20 @@
+{
+  "name": "9gg-fun-api",
+  "version": "0.1.0",
+  "description": "API for 9GG.FUN - A Solana-based launchpad for programmable token extensions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.78.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "author": "9GG Software",
+  "license": "UNLICENSED"
+}
